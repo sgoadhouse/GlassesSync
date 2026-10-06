@@ -1,0 +1,3 @@
+[submodule "UVaND-Libraries"]
+	path = UVaND-Libraries
+	url = https://gitlab.cern.ch/cms-bcp/bcp-common/hw/uvand-libraries.git

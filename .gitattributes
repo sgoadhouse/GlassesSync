@@ -1,0 +1,9 @@
+*.PcbDoc filter=lfs diff=lfs merge=lfs -text
+*.PcbDwf filter=lfs diff=lfs merge=lfs -text
+*.PDF filter=lfs diff=lfs merge=lfs -text
+edb.def filter=lfs diff=lfs merge=lfs -text
+*.siw filter=lfs diff=lfs merge=lfs -text
+*.dcb filter=lfs diff=lfs merge=lfs -text
+*IPC2581*.cvg filter=lfs diff=lfs merge=lfs -text
+*.zip filter=lfs diff=lfs merge=lfs -text
+Project[[:space:]]Outputs[[:space:]]for[[:space:]]BCP_V3/v3_pre0/BCP_V3_sch_v3_pre0_2026-04-02.PDF filter=lfs diff=lfs merge=lfs -text
