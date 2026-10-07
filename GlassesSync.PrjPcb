@@ -69,7 +69,7 @@ GenerateClassCluster=0
 DocumentUniqueId=WRIORIBX
 
 [Document2]
-DocumentPath=UVaND-Libraries\Components.SchLib
+DocumentPath=UVaND-Libraries\Local_Components.DbLib
 AnnotationEnabled=1
 AnnotateStartValue=1
 AnnotationIndexControlEnabled=0
@@ -86,7 +86,58 @@ GenerateClassCluster=0
 DocumentUniqueId=
 
 [Document3]
+DocumentPath=UVaND-Libraries\Components.SchLib
+AnnotationEnabled=1
+AnnotateStartValue=1
+AnnotationIndexControlEnabled=0
+AnnotateSuffix=
+AnnotateScope=All
+AnnotateOrder=-1
+DoLibraryUpdate=1
+DoDatabaseUpdate=1
+ClassGenCCAutoEnabled=1
+ClassGenCCAutoRoomEnabled=0
+ClassGenNCAutoScope=None
+DItemRevisionGUID=
+GenerateClassCluster=0
+DocumentUniqueId=DLBOFXON
+
+[Document4]
 DocumentPath=UVaND-Libraries\Footprints.PcbLib
+AnnotationEnabled=1
+AnnotateStartValue=1
+AnnotationIndexControlEnabled=0
+AnnotateSuffix=
+AnnotateScope=All
+AnnotateOrder=-1
+DoLibraryUpdate=1
+DoDatabaseUpdate=1
+ClassGenCCAutoEnabled=1
+ClassGenCCAutoRoomEnabled=0
+ClassGenNCAutoScope=None
+DItemRevisionGUID=
+GenerateClassCluster=0
+DocumentUniqueId=YQPPHPVF
+
+[Document5]
+DocumentPath=GlassesSync_TOP.SchDoc
+AnnotationEnabled=1
+AnnotateStartValue=1
+AnnotationIndexControlEnabled=0
+AnnotateSuffix=
+AnnotateScope=All
+AnnotateOrder=0
+DoLibraryUpdate=1
+DoDatabaseUpdate=1
+ClassGenCCAutoEnabled=1
+ClassGenCCAutoRoomEnabled=0
+ClassGenNCAutoScope=None
+DItemRevisionGUID=
+GenerateClassCluster=0
+DocumentUniqueId=ULYULKGY
+
+[Document6]
+DocumentPath=UVaND-Libraries\Simulation UVaND.IntLib
 AnnotationEnabled=1
 AnnotateStartValue=1
 AnnotationIndexControlEnabled=0
@@ -102,8 +153,8 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=
 
-[Document4]
-DocumentPath=GlassesSync_TOP.SchDoc
+[Document7]
+DocumentPath=GlassesSync.BomDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
 AnnotationIndexControlEnabled=0
@@ -117,7 +168,7 @@ ClassGenCCAutoRoomEnabled=0
 ClassGenNCAutoScope=None
 DItemRevisionGUID=
 GenerateClassCluster=0
-DocumentUniqueId=ULYULKGY
+DocumentUniqueId=
 
 [SearchPath1]
 Path=UVaND-Libraries\*.*
@@ -128,32 +179,32 @@ Path=UVaND-Libraries\Simulation UVaND\*.*
 IncludeSubFolders=1
 
 [Parameter1]
-Name=ProjTitle
-Value=Eye Tracking Glasses Sync
+Name=ProjAddress1
+Value=Charlottesville, VA. USA
 
 [Parameter2]
-Name=ProjRevision
-Value=v0_1
+Name=ProjAddress2
+Value=
 
 [Parameter3]
-Name=ProjOrganization2
-Value=
+Name=ProjEngineer
+Value=S. Goadhouse
 
 [Parameter4]
 Name=ProjOrganization1
 Value=University of Virginia
 
 [Parameter5]
-Name=ProjEngineer
-Value=S. Goadhouse
-
-[Parameter6]
-Name=ProjAddress2
+Name=ProjOrganization2
 Value=
 
+[Parameter6]
+Name=ProjRevision
+Value=v0_1
+
 [Parameter7]
-Name=ProjAddress1
-Value=Charlottesville, VA. USA
+Name=ProjTitle
+Value=Eye Tracking Glasses Sync
 
 [Configuration1]
 Name=Sources
@@ -1141,10 +1192,22 @@ NetClassManualEnabled=1
 NetClassSeparateForBusSections=0
 
 [LibraryUpdateOptions]
-SelectedOnly=0
+SelectedOnly=1
 UpdateVariants=1
 UpdateToLatestRevision=1
 PartTypes=0
+ComponentLibIdentifierKind0=Library Name And Type
+ComponentLibraryIdentifier0=Local_Components.DbLib/CONNECTORS_AD
+ComponentDesignItemID0=6110-0060
+ComponentSymbolReference0=HEADER-12X1
+ComponentUpdate0=1
+ComponentIsDeviceSheet0=0
+ComponentLibIdentifierKind1=Library Name And Type
+ComponentLibraryIdentifier1=Local_Components.DbLib/CONNECTORS_AD
+ComponentDesignItemID1=6110-0061
+ComponentSymbolReference1=HEADER-16X1
+ComponentUpdate1=1
+ComponentIsDeviceSheet1=0
 FullReplace=1
 UpdateDesignatorLock=1
 UpdatePartIDLock=1
@@ -1158,6 +1221,78 @@ RemoveParameters=0
 AddModels=1
 RemoveModels=1
 UpdateCurrentModels=1
+ParameterName0=Case
+ParameterUpdate0=1
+ParameterName1=Class
+ParameterUpdate1=1
+ParameterName2=Comment
+ParameterUpdate2=1
+ParameterName3=Component Kind
+ParameterUpdate3=1
+ParameterName4=Component Type
+ParameterUpdate4=1
+ParameterName5=Current
+ParameterUpdate5=1
+ParameterName6=Description
+ParameterUpdate6=1
+ParameterName7=DeviceID
+ParameterUpdate7=1
+ParameterName8=Footprint
+ParameterUpdate8=1
+ParameterName9=HelpURL
+ParameterUpdate9=1
+ParameterName10=Library Reference
+ParameterUpdate10=1
+ParameterName11=Manufacturer 1
+ParameterUpdate11=1
+ParameterName12=Manufacturer 2
+ParameterUpdate12=1
+ParameterName13=Manufacturer 3
+ParameterUpdate13=1
+ParameterName14=Manufacturer Comp Height 1
+ParameterUpdate14=1
+ParameterName15=Manufacturer Comp Height 2
+ParameterUpdate15=1
+ParameterName16=Manufacturer Comp Height 3
+ParameterUpdate16=1
+ParameterName17=Manufacturer Part Number 1
+ParameterUpdate17=1
+ParameterName18=Manufacturer Part Number 2
+ParameterUpdate18=1
+ParameterName19=Manufacturer Part Number 3
+ParameterUpdate19=1
+ParameterName20=Part Description
+ParameterUpdate20=1
+ParameterName21=Pin Count
+ParameterUpdate21=1
+ParameterName22=PressFit
+ParameterUpdate22=1
+ParameterName23=SMD
+ParameterUpdate23=1
+ParameterName24=Supplier 1
+ParameterUpdate24=1
+ParameterName25=Supplier 2
+ParameterUpdate25=1
+ParameterName26=Supplier 3
+ParameterUpdate26=1
+ParameterName27=Supplier Part Number 1
+ParameterUpdate27=1
+ParameterName28=Supplier Part Number 2
+ParameterUpdate28=1
+ParameterName29=Supplier Part Number 3
+ParameterUpdate29=1
+ParameterName30=Value
+ParameterUpdate30=1
+ParameterName31=Voltage
+ParameterUpdate31=1
+ModelTypeGroup0=PCBLIB
+ModelTypeUpdate0=1
+ModelType0=PCBLIB
+ModelName0=TH-CONN12B-HDR
+ModelUpdate0=1
+ModelType1=PCBLIB
+ModelName1=TH-CONN16A-HDR
+ModelUpdate1=1
 
 [DatabaseUpdateOptions]
 SelectedOnly=0
