@@ -1,0 +1,500 @@
+[OutputJobFile]
+Version=1.0
+Caption=
+Description=
+VaultGUID=
+ItemGUID=
+ItemHRID=
+RevisionGUID=
+RevisionId=
+VaultHRID=
+AutoItemHRID=
+NextRevId=
+FolderGUID=
+LifeCycleDefinitionGUID=
+RevisionNamingSchemeGUID=
+
+[OutputGroup1]
+Name=Fabrication.OutJob
+Description=
+TargetOutputMedium=Fabrication ODB++
+VariantName=[No Variations]
+VariantScope=1
+CurrentConfigurationName=
+TargetPrinter=Microsoft Print to PDF
+PrinterOptions=Record=PrinterOptions|Copies=1|Duplex=1|TrueTypeOptions=3|Collate=1|PrintJobKind=1|PrintWhat=1
+OutputMedium1=Print Job
+OutputMedium1_Type=Printer
+OutputMedium1_Printer=Microsoft Print to PDF
+OutputMedium1_PrinterOptions=Record=PrinterOptions|Copies=1|Duplex=1|TrueTypeOptions=3|Collate=1|PrintJobKind=1|PrintWhat=1
+OutputMedium2=Fabrication Gerber
+OutputMedium2_Type=GeneratedFiles
+OutputMedium3=Fabrication ODB++
+OutputMedium3_Type=GeneratedFiles
+OutputMedium4=Fabrication IPC2581
+OutputMedium4_Type=GeneratedFiles
+OutputMedium5=Fabrication Netlist IPC-D-356
+OutputMedium5_Type=GeneratedFiles
+OutputMedium6=Fabrication Seeed Studio
+OutputMedium6_Type=GeneratedFiles
+OutputMedium7=PCB Export ASCII
+OutputMedium7_Type=GeneratedFiles
+OutputMedium8=Reports
+OutputMedium8_Type=GeneratedFiles
+OutputMedium9=Fab Spec
+OutputMedium9_Type=Publish
+OutputMedium10=3D
+OutputMedium10_Type=Publish
+OutputType1=Gerber
+OutputName1=Gerber
+OutputCategory1=Fabrication
+OutputDocumentPath1=
+OutputVariantName1=
+OutputEnabled1=0
+OutputEnabled1_OutputMedium1=0
+OutputEnabled1_OutputMedium2=1
+OutputEnabled1_OutputMedium3=0
+OutputEnabled1_OutputMedium4=0
+OutputEnabled1_OutputMedium5=0
+OutputEnabled1_OutputMedium6=0
+OutputEnabled1_OutputMedium7=0
+OutputEnabled1_OutputMedium8=0
+OutputEnabled1_OutputMedium9=0
+OutputEnabled1_OutputMedium10=0
+OutputDefault1=0
+Configuration1_Name1=OutputConfigurationParameter1
+Configuration1_Item1=AddToAllLayerClasses.Set= |AddToAllPlots.Set=SerializeLayerHash.Version~2,ClassName~TPlotLayerStateArray|BoardID=YGNIMUCI|CentrePlots=False|DrillDrawingSymbol=GraphicsSymbol|DrillDrawingSymbolSize=200000|EmbeddedApertures=True|FilmBorderSize=10000000|FilmXSize=200000000|FilmYSize=160000000|FlashAllFills=False|FlashPadShapes=True|G54OnApertureChange=False|GenerateDRCRulesFile=True|GenerateDRCRulesFile=True|GenerateReliefShapes=True|GenerateReports=True|GerberUnit=Metric|GerberUnit=Metric|IncludeUnconnectedMidLayerPads=False|LayerClassesMirror.Set= |LayerClassesPlot.Set= |LeadingAndTrailingZeroesMode=SuppressLeadingZeroes|MaxApertureSize=2500000|MergePadAndRegion=False|MinusApertureTolerance=39|MinusApertureTolerance=39|Mirror.Set=SerializeLayerHash.Version~2,ClassName~TPlotLayerStateArray|MirrorDrillDrawingPlots=False|MirrorDrillGuidePlots=False|NoRegularPolygons=False|NumberOfDecimals=2|NumberOfDecimals=2|OptimizeChangeLocationCommands=True|OptimizeChangeLocationCommands=True|OriginPosition=Relative|OutputFormat=Different|Panelize=False|Plot.Set=SerializeLayerHash.Version~2,ClassName~TPlotLayerStateArray,16973830~1,16973832~1,16973834~1,16973835~1,16973833~1,16973831~1,16908304~1,16908311~1,16908301~1,16908289~1,16973837~1,16777217~1,16777230~1,16777218~1,16777228~1,16777220~1,16777226~1,16777221~1,16777224~1,16777232~1,16777233~1,16777225~1,16777222~1,16777227~1,16777219~1,16777229~1,16777223~1,16777231~1,16842751~1|PlotBoardProfile=False|PlotBoardProfileFileName= |PlotDrillDrawingLayerPair0_Backdrill=False|PlotDrillDrawingLayerPair0_Checked=True|PlotDrillDrawingLayerPair0_DrillType=Regular|PlotDrillDrawingLayerPair0_FileName= |PlotDrillDrawingLayerPair0_HighLayer=Bottom Layer|PlotDrillDrawingLayerPair0_LowLayer=Top Layer|PlotDrillDrawingLayerPair1_Backdrill=False|PlotDrillDrawingLayerPair1_Checked=True|PlotDrillDrawingLayerPair1_DrillType=Regular|PlotDrillDrawingLayerPair1_FileName= |PlotDrillDrawingLayerPair1_HighLayer=Bottom Layer|PlotDrillDrawingLayerPair1_LowLayer=Mid Layer 8|PlotDrillDrawingLayerPair2_Backdrill=False|PlotDrillDrawingLayerPair2_Checked=True|PlotDrillDrawingLayerPair2_DrillType=Regular|PlotDrillDrawingLayerPair2_FileName= |PlotDrillDrawingLayerPair2_HighLayer=Mid Layer 7|PlotDrillDrawingLayerPair2_LowLayer=Top Layer|PlotPositivePlaneLayers=False|PlotUsedDrillDrawingLayerPairs=True|PlotUsedDrillGuideLayerPairs=True|PlusApertureTolerance=39|PlusApertureTolerance=39|Record=GerberView|SoftwareArcs=False|Sorted=True|Sorted=True|UncheckPlotDrillGuideLayerPair0_Backdrill=False|UncheckPlotDrillGuideLayerPair0_Checked=False|UncheckPlotDrillGuideLayerPair0_DrillType=Regular|UncheckPlotDrillGuideLayerPair0_FileName= |UncheckPlotDrillGuideLayerPair0_HighLayer=Bottom Layer|UncheckPlotDrillGuideLayerPair0_LowLayer=Top Layer|UncheckPlotDrillGuideLayerPair1_Backdrill=False|UncheckPlotDrillGuideLayerPair1_Checked=False|UncheckPlotDrillGuideLayerPair1_DrillType=Regular|UncheckPlotDrillGuideLayerPair1_FileName= |UncheckPlotDrillGuideLayerPair1_HighLayer=Bottom Layer|UncheckPlotDrillGuideLayerPair1_LowLayer=Mid Layer 8|UncheckPlotDrillGuideLayerPair2_Backdrill=False|UncheckPlotDrillGuideLayerPair2_Checked=False|UncheckPlotDrillGuideLayerPair2_DrillType=Regular|UncheckPlotDrillGuideLayerPair2_FileName= |UncheckPlotDrillGuideLayerPair2_HighLayer=Mid Layer 7|UncheckPlotDrillGuideLayerPair2_LowLayer=Top Layer|DocumentPath=C:\Users\sdg6h\Documents\BCP\GIT-bcp_v3\BCP_V3.PcbDoc
+OutputType2=NC Drill
+OutputName2=NC Drill
+OutputCategory2=Fabrication
+OutputDocumentPath2=
+OutputVariantName2=
+OutputEnabled2=0
+OutputEnabled2_OutputMedium1=0
+OutputEnabled2_OutputMedium2=2
+OutputEnabled2_OutputMedium3=0
+OutputEnabled2_OutputMedium4=0
+OutputEnabled2_OutputMedium5=0
+OutputEnabled2_OutputMedium6=0
+OutputEnabled2_OutputMedium7=0
+OutputEnabled2_OutputMedium8=0
+OutputEnabled2_OutputMedium9=0
+OutputEnabled2_OutputMedium10=0
+OutputDefault2=0
+Configuration2_Name1=OutputConfigurationParameter1
+Configuration2_Item1=BoardEdgeRoutToolDia=2000000|GenerateBoardEdgeRout=False|GenerateDrilledSlotsG85=True|GenerateEIADrillFile=False|GenerateSeparatePlatedNonPlatedFiles=True|GenerateSeparateViaTypeFiles=False|GenerateToolsByDrillSymbols=False|NumberOfDecimals=3|NumberOfUnits=4|OptimizeChangeLocationCommands=True|OriginPosition=Relative|Record=DrillView|Units=Metric|ZeroesMode=SuppressLeadingZeroes|DocumentPath=C:\Users\sdg6h\Documents\BCP\GIT-bcp_v3\BCP_V3.PcbDoc
+OutputType3=IPC2581
+OutputName3=IPC-2581 Files
+OutputCategory3=Fabrication
+OutputDocumentPath3=
+OutputVariantName3=
+OutputEnabled3=0
+OutputEnabled3_OutputMedium1=0
+OutputEnabled3_OutputMedium2=0
+OutputEnabled3_OutputMedium3=0
+OutputEnabled3_OutputMedium4=1
+OutputEnabled3_OutputMedium5=0
+OutputEnabled3_OutputMedium6=0
+OutputEnabled3_OutputMedium7=0
+OutputEnabled3_OutputMedium8=0
+OutputEnabled3_OutputMedium9=0
+OutputEnabled3_OutputMedium10=0
+OutputDefault3=0
+Configuration3_Name1=OutputConfigurationParameter1
+Configuration3_Item1=Record=IPC2581View|IPC2581Version=B|MeasurementSystem=Metric|FloatingPointPrecision=6|IsWiseSupport=False|MergeNetTieNets=True|DocumentPath=C:\Users\sdg6h\Documents\BCP\bcp_v2\BCP_V2.PcbDoc
+OutputType4=Design Rules Check
+OutputName4=Design Rules Check
+OutputCategory4=Validation
+OutputDocumentPath4=
+OutputVariantName4=
+OutputEnabled4=0
+OutputEnabled4_OutputMedium1=0
+OutputEnabled4_OutputMedium2=0
+OutputEnabled4_OutputMedium3=0
+OutputEnabled4_OutputMedium4=0
+OutputEnabled4_OutputMedium5=0
+OutputEnabled4_OutputMedium6=0
+OutputEnabled4_OutputMedium7=0
+OutputEnabled4_OutputMedium8=1
+OutputEnabled4_OutputMedium9=0
+OutputEnabled4_OutputMedium10=0
+OutputDefault4=0
+PageOptions4=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=0|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=1|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=Letter|PaperIndex=1
+Configuration4_Name1=OutputConfigurationParameter1
+Configuration4_Item1=?
+OutputType5=Footprint Comparison Report
+OutputName5=Footprint Comparison Report
+OutputCategory5=Validation
+OutputDocumentPath5=
+OutputVariantName5=
+OutputEnabled5=0
+OutputEnabled5_OutputMedium1=0
+OutputEnabled5_OutputMedium2=0
+OutputEnabled5_OutputMedium3=0
+OutputEnabled5_OutputMedium4=0
+OutputEnabled5_OutputMedium5=0
+OutputEnabled5_OutputMedium6=0
+OutputEnabled5_OutputMedium7=0
+OutputEnabled5_OutputMedium8=2
+OutputEnabled5_OutputMedium9=0
+OutputEnabled5_OutputMedium10=0
+OutputDefault5=0
+Configuration5_Name1=OutputConfigurationParameter1
+Configuration5_Item1=Record=TUpdateFromPCBLibrariesSettings|DocumentPath=C:\Users\sdg6h\Documents\BCP\bcp_v2\BCP_V2.PcbDoc
+OutputType6=Save As/Export PCB
+OutputName6=ASCII
+OutputCategory6=Export
+OutputDocumentPath6=
+OutputVariantName6=
+OutputEnabled6=0
+OutputEnabled6_OutputMedium1=0
+OutputEnabled6_OutputMedium2=0
+OutputEnabled6_OutputMedium3=0
+OutputEnabled6_OutputMedium4=0
+OutputEnabled6_OutputMedium5=0
+OutputEnabled6_OutputMedium6=0
+OutputEnabled6_OutputMedium7=1
+OutputEnabled6_OutputMedium8=0
+OutputEnabled6_OutputMedium9=0
+OutputEnabled6_OutputMedium10=0
+OutputDefault6=0
+Configuration6_Name1=OutputConfigurationParameter1
+Configuration6_Item1=Format=PCB ASCII File (*.PcbDoc)|Record=UniExporterView|DocumentPath=C:\Users\sdg6h\Documents\BCP\bcp_v2\BCP_V2.PcbDoc
+OutputType7=PCBDrawing
+OutputName7=Draftsman
+OutputCategory7=Documentation
+OutputDocumentPath7=BCP_V3_Fab_Spec.PCBDwf
+OutputVariantName7=
+OutputEnabled7=0
+OutputEnabled7_OutputMedium1=0
+OutputEnabled7_OutputMedium2=0
+OutputEnabled7_OutputMedium3=0
+OutputEnabled7_OutputMedium4=0
+OutputEnabled7_OutputMedium5=0
+OutputEnabled7_OutputMedium6=0
+OutputEnabled7_OutputMedium7=0
+OutputEnabled7_OutputMedium8=0
+OutputEnabled7_OutputMedium9=1
+OutputEnabled7_OutputMedium10=0
+OutputDefault7=0
+PageOptions7=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=Letter|PaperIndex=1
+OutputType8=ODB
+OutputName8=ODB++ Files
+OutputCategory8=Fabrication
+OutputDocumentPath8=
+OutputVariantName8=
+OutputEnabled8=1
+OutputEnabled8_OutputMedium1=0
+OutputEnabled8_OutputMedium2=0
+OutputEnabled8_OutputMedium3=1
+OutputEnabled8_OutputMedium4=0
+OutputEnabled8_OutputMedium5=0
+OutputEnabled8_OutputMedium6=0
+OutputEnabled8_OutputMedium7=0
+OutputEnabled8_OutputMedium8=0
+OutputEnabled8_OutputMedium9=0
+OutputEnabled8_OutputMedium10=0
+OutputDefault8=0
+Configuration8_Name1=OutputConfigurationParameter1
+Configuration8_Item1=Compression_None=False|Compression_tar_tgz=False|Compression_zip=True|DifferentFootprints=False|ExportPositivePlaneLayers=False|GenerateDRCRulesFile=True|IncludeComponents=True|IncludeNetList=True|IncludeUnconnectedMidLayerPads=False|IncludeVariantsData=False|IntentionalShorts=False|MergeNetTieNets=True|NeutralizeNetNames=False|ObjsInsideBoardOutlineOnly=False|ODBProfileLayer=-1000|ODBProfileLayerV7=-1|Plot_V7_1=True|Plot_V7_1_name=Mechanical Layer 25|Plot_V7_2=True|Plot_V7_2_name=Mechanical Layer 23|Plot_V7_3=True|Plot_V7_3_name=Mechanical Layer 21|Plot_V7_4=True|Plot_V7_4_name=Mechanical Layer 18|PlotBackDrillingPairs=False|PlotBlindViasPair0_DrillType=Regular|PlotBlindViasPair0_HighLayer=Mid Layer 7|PlotBlindViasPair0_LowLayer=Top Layer|PlotBlindViasPair0_Plot=True|PlotBlindViasPair1_DrillType=Regular|PlotBlindViasPair1_HighLayer=Bottom Layer|PlotBlindViasPair1_LowLayer=Mid Layer 8|PlotBlindViasPair1_Plot=True|PlotBlindViasPairs=False|PlotBottomLayerPlot=True|PlotBottomOverlayPlot=True|PlotBottomPastePlot=True|PlotBottomSolderPlot=True|PlotCounterHolesPairs=False|PlotDrillDrawingPair0_DrillType=Regular|PlotDrillDrawingPair0_HighLayer=Bottom Layer|PlotDrillDrawingPair0_LowLayer=Top Layer|PlotDrillDrawingPair0_Plot=True|PlotDrillDrawingPair1_DrillType=Regular|PlotDrillDrawingPair1_HighLayer=Mid Layer 7|PlotDrillDrawingPair1_LowLayer=Top Layer|PlotDrillDrawingPair1_Plot=True|PlotDrillDrawingPair2_DrillType=Regular|PlotDrillDrawingPair2_HighLayer=Bottom Layer|PlotDrillDrawingPair2_LowLayer=Mid Layer 8|PlotDrillDrawingPair2_Plot=True|PlotDrillDrawingPairs=False|PlotDrillGuidePair0_DrillType=Regular|PlotDrillGuidePair0_HighLayer=Bottom Layer|PlotDrillGuidePair0_LowLayer=Top Layer|PlotDrillGuidePair0_Plot=True|PlotDrillGuidePair1_DrillType=Regular|PlotDrillGuidePair1_HighLayer=Mid Layer 7|PlotDrillGuidePair1_LowLayer=Top Layer|PlotDrillGuidePair1_Plot=True|PlotDrillGuidePair2_DrillType=Regular|PlotDrillGuidePair2_HighLayer=Bottom Layer|PlotDrillGuidePair2_LowLayer=Mid Layer 8|PlotDrillGuidePair2_Plot=True|PlotDrillGuidePairs=False|PlotInternalPlane10Plot=False|PlotInternalPlane11Plot=False|PlotInternalPlane12Plot=False|PlotInternalPlane13Plot=False|PlotInternalPlane14Plot=False|PlotInternalPlane15Plot=False|PlotInternalPlane16Plot=False|PlotInternalPlane1Plot=False|PlotInternalPlane2Plot=False|PlotInternalPlane3Plot=False|PlotInternalPlane4Plot=False|PlotInternalPlane5Plot=False|PlotInternalPlane6Plot=False|PlotInternalPlane7Plot=False|PlotInternalPlane8Plot=False|PlotInternalPlane9Plot=False|PlotKeepOutLayerPlot=True|PlotMechanical10Plot=False|PlotMechanical11Plot=False|PlotMechanical12Plot=False|PlotMechanical13Plot=True|PlotMechanical14Plot=False|PlotMechanical15Plot=True|PlotMechanical16Plot=True|PlotMechanical1Plot=True|PlotMechanical2Plot=False|PlotMechanical3Plot=False|PlotMechanical4Plot=True|PlotMechanical5Plot=False|PlotMechanical6Plot=False|PlotMechanical7Plot=True|PlotMechanical8Plot=True|PlotMechanical9Plot=True|PlotMicroViasPairs=False|PlotMidLayer10Plot=True|PlotMidLayer11Plot=True|PlotMidLayer12Plot=True|PlotMidLayer13Plot=True|PlotMidLayer14Plot=True|PlotMidLayer15Plot=True|PlotMidLayer16Plot=True|PlotMidLayer17Plot=False|PlotMidLayer18Plot=False|PlotMidLayer19Plot=False|PlotMidLayer1Plot=True|PlotMidLayer20Plot=False|PlotMidLayer21Plot=False|PlotMidLayer22Plot=False|PlotMidLayer23Plot=False|PlotMidLayer24Plot=False|PlotMidLayer25Plot=False|PlotMidLayer26Plot=False|PlotMidLayer27Plot=False|PlotMidLayer28Plot=False|PlotMidLayer29Plot=False|PlotMidLayer2Plot=True|PlotMidLayer30Plot=False|PlotMidLayer3Plot=True|PlotMidLayer4Plot=True|PlotMidLayer5Plot=True|PlotMidLayer6Plot=True|PlotMidLayer7Plot=True|PlotMidLayer8Plot=True|PlotMidLayer9Plot=True|PlotNPTHPair0_DrillType=Regular|PlotNPTHPair0_HighLayer=Top Layer|PlotNPTHPair0_LowLayer=Bottom Layer|PlotNPTHPair0_Plot=True|PlotNPTHPairs=False|PlotPTHPair0_DrillType=Regular|PlotPTHPair0_HighLayer=Top Layer|PlotPTHPair0_LowLayer=Bottom Layer|PlotPTHPair0_Plot=True|PlotPTHPairs=False|PlotTopLayerPlot=True|PlotTopOverlayPlot=True|PlotTopPastePlot=True|PlotTopSolderPlot=True|PlotViaTypeDrillDrawingPairs=False|PlotViaTypeDrillGuidePairs=False|PlotViaTypeDrillPairs=False|Record=ODBView|RemoveComponentProperties=False|ToolsByDrillSymbols=False|Units=Metric|UserLayerName.Caption0=bottom_courtyard_1|UserLayerName.Count=1|UserLayerName.Layer0=16908293|Version=8.1|DocumentPath=C:\Users\sdg6h\Documents\BCP\GIT-bcp_v3\BCP_V3.PcbDoc
+OutputType9=Gerber
+OutputName9=Gerber Seeed Studio
+OutputCategory9=Fabrication
+OutputDocumentPath9=
+OutputVariantName9=
+OutputEnabled9=0
+OutputEnabled9_OutputMedium1=0
+OutputEnabled9_OutputMedium2=0
+OutputEnabled9_OutputMedium3=0
+OutputEnabled9_OutputMedium4=0
+OutputEnabled9_OutputMedium5=0
+OutputEnabled9_OutputMedium6=1
+OutputEnabled9_OutputMedium7=0
+OutputEnabled9_OutputMedium8=0
+OutputEnabled9_OutputMedium9=0
+OutputEnabled9_OutputMedium10=0
+OutputDefault9=0
+Configuration9_Name1=OutputConfigurationParameter1
+Configuration9_Item1=AddToAllLayerClasses.Set= |AddToAllPlots.Set=SerializeLayerHash.Version~2,ClassName~TLayerToBoolean|CentrePlots=False|DrillDrawingSymbol=GraphicsSymbol|DrillDrawingSymbolSize=200000|EmbeddedApertures=True|FilmBorderSize=10000000|FilmXSize=200000000|FilmYSize=160000000|FlashAllFills=False|FlashPadShapes=True|G54OnApertureChange=False|GenerateDRCRulesFile=False|GenerateDRCRulesFile=False|GenerateReliefShapes=True|GerberUnit=Metric|GerberUnit=Metric|IncludeUnconnectedMidLayerPads=False|LayerClassesMirror.Set= |LayerClassesPlot.Set= |LeadingAndTrailingZeroesMode=SuppressLeadingZeroes|MaxApertureSize=2500000|MinusApertureTolerance=39|MinusApertureTolerance=39|Mirror.Set=SerializeLayerHash.Version~2,ClassName~TLayerToBoolean|MirrorDrillDrawingPlots=False|MirrorDrillGuidePlots=False|NoRegularPolygons=False|NumberOfDecimals=3|NumberOfDecimals=3|OptimizeChangeLocationCommands=True|OptimizeChangeLocationCommands=True|OriginPosition=Relative|Panelize=False|Plot.Set=SerializeLayerHash.Version~2,ClassName~TLayerToBoolean,16973830~1,16973832~1,16973834~1,16777217~1,16842751~1,16973835~1,16973833~1,16973831~1,16908289~1,16973837~1|PlotDrillDrawingLayerPair0_Backdrill=False|PlotDrillDrawingLayerPair0_DrillType=Regular|PlotDrillDrawingLayerPair0_HighLayer=Bottom Layer|PlotDrillDrawingLayerPair0_LowLayer=Top Layer|PlotDrillDrawingLayerPair1_Backdrill=False|PlotDrillDrawingLayerPair1_DrillType=Regular|PlotDrillDrawingLayerPair1_HighLayer=Mid Layer 15|PlotDrillDrawingLayerPair1_LowLayer=Top Layer|PlotDrillDrawingLayerPair2_Backdrill=False|PlotDrillDrawingLayerPair2_DrillType=Regular|PlotDrillDrawingLayerPair2_HighLayer=Bottom Layer|PlotDrillDrawingLayerPair2_LowLayer=Mid Layer 16|PlotDrillGuideLayerPair0_Backdrill=False|PlotDrillGuideLayerPair0_DrillType=Regular|PlotDrillGuideLayerPair0_HighLayer=Bottom Layer|PlotDrillGuideLayerPair0_LowLayer=Top Layer|PlotDrillGuideLayerPair1_Backdrill=False|PlotDrillGuideLayerPair1_DrillType=Regular|PlotDrillGuideLayerPair1_HighLayer=Mid Layer 15|PlotDrillGuideLayerPair1_LowLayer=Top Layer|PlotDrillGuideLayerPair2_Backdrill=False|PlotDrillGuideLayerPair2_DrillType=Regular|PlotDrillGuideLayerPair2_HighLayer=Bottom Layer|PlotDrillGuideLayerPair2_LowLayer=Mid Layer 16|PlotPositivePlaneLayers=False|PlotUsedDrillDrawingLayerPairs=False|PlotUsedDrillGuideLayerPairs=False|PlusApertureTolerance=39|PlusApertureTolerance=39|Record=GerberView|SoftwareArcs=False|Sorted=False|Sorted=False|DocumentPath=C:\Users\sdg6h\Documents\BCP\bcp_v2\BCP_V2.PcbDoc
+OutputType10=NC Drill
+OutputName10=NC Drill Seeed Studio
+OutputCategory10=Fabrication
+OutputDocumentPath10=
+OutputVariantName10=
+OutputEnabled10=0
+OutputEnabled10_OutputMedium1=0
+OutputEnabled10_OutputMedium2=0
+OutputEnabled10_OutputMedium3=0
+OutputEnabled10_OutputMedium4=0
+OutputEnabled10_OutputMedium5=0
+OutputEnabled10_OutputMedium6=2
+OutputEnabled10_OutputMedium7=0
+OutputEnabled10_OutputMedium8=0
+OutputEnabled10_OutputMedium9=0
+OutputEnabled10_OutputMedium10=0
+OutputDefault10=0
+Configuration10_Name1=OutputConfigurationParameter1
+Configuration10_Item1=BoardEdgeRoutToolDia=2000000|GenerateBoardEdgeRout=False|GenerateDrilledSlotsG85=False|GenerateEIADrillFile=False|GenerateSeparatePlatedNonPlatedFiles=False|NumberOfDecimals=3|NumberOfUnits=4|OptimizeChangeLocationCommands=True|OriginPosition=Relative|Record=DrillView|Units=Metric|ZeroesMode=SuppressLeadingZeroes|DocumentPath=C:\Users\sdg6h\Documents\BCP\bcp_v2\BCP_V2.PcbDoc
+OutputType11=PDF3D
+OutputName11=PDF3D
+OutputCategory11=Documentation
+OutputDocumentPath11=
+OutputVariantName11=
+OutputEnabled11=0
+OutputEnabled11_OutputMedium1=0
+OutputEnabled11_OutputMedium2=0
+OutputEnabled11_OutputMedium3=0
+OutputEnabled11_OutputMedium4=0
+OutputEnabled11_OutputMedium5=0
+OutputEnabled11_OutputMedium6=0
+OutputEnabled11_OutputMedium7=0
+OutputEnabled11_OutputMedium8=0
+OutputEnabled11_OutputMedium9=0
+OutputEnabled11_OutputMedium10=1
+OutputDefault11=0
+PageOptions11=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=Letter|PaperIndex=1
+Configuration11_Name1=OutputConfigurationParameter1
+Configuration11_Item1=Record=ExportPDF3DSetting|Version=110|Format=0|Flags=8158|Scheme=0|ViewColorR0=255|ViewColorG0=255|ViewColorB0=255|ViewLignt0=9|ViewColorR1=255|ViewColorG1=255|ViewColorB1=255|ViewLignt1=9|ViewColorR2=255|ViewColorG2=255|ViewColorB2=255|ViewLignt2=9|ViewColorR3=255|ViewColorG3=255|ViewColorB3=255|ViewLignt3=9
+OutputType12=Test Points
+OutputName12=Test Point Report
+OutputCategory12=Fabrication
+OutputDocumentPath12=
+OutputVariantName12=
+OutputEnabled12=0
+OutputEnabled12_OutputMedium1=0
+OutputEnabled12_OutputMedium2=0
+OutputEnabled12_OutputMedium3=0
+OutputEnabled12_OutputMedium4=0
+OutputEnabled12_OutputMedium5=1
+OutputEnabled12_OutputMedium6=0
+OutputEnabled12_OutputMedium7=0
+OutputEnabled12_OutputMedium8=0
+OutputEnabled12_OutputMedium9=0
+OutputEnabled12_OutputMedium10=0
+OutputDefault12=0
+Configuration12_Name1=OutputConfigurationParameter1
+Configuration12_Item1=AdjacencyDistance=250000|GenerateCSVFormat=False|GenerateIPCFormat=True|GenerateSpreadSheetFormat=False|GenerateTextFormat=False|MergeNetTieNets=True|OriginPosition=Absolute|OutlineLayer=56|OutputAdjancencies=True|OutputBoardOutline=False|OutputTraces=True|Record=TestPointView|ReportBottomLayerTestpoints=True|ReportTopLayerTestpoints=True|Units=Metric|DocumentPath=C:\Users\sdg6h\Documents\BCP\GIT-bcp_v2\BCP_V2.PcbDoc
+
+[PublishSettings]
+OutputFilePath2=C:\Users\sdg6h\Documents\BCP\GIT-bcp_v2\Project Outputs for BCP_V2\v2_0_2\
+ReleaseManaged2=1
+OutputBasePath2=Project Outputs for BCP_V3
+OutputPathMedia2==ProjRevision
+OutputPathMediaValue2==ProjRevision
+OutputPathOutputer2=[Output Custom]
+OutputPathOutputerPrefix2=
+OutputPathOutputerValue2=='PCBFab_Gerber_NCDrill_'+ProjRevision
+OutputFileName2=
+OutputFileNameMulti2==ProjectName +' ' + OutputType
+UseOutputNameForMulti2=0
+OutputFileNameSpecial2=
+OpenOutput2=0
+OutputFilePath3=C:\Users\sdg6h\Documents\BCP\GIT-bcp_v2\Project Outputs for BCP_V2\v2_0_2\
+ReleaseManaged3=1
+OutputBasePath3=Project Outputs for BCP_V3
+OutputPathMedia3==ProjRevision
+OutputPathMediaValue3==ProjRevision
+OutputPathOutputer3=[Output Custom]
+OutputPathOutputerPrefix3=PCBFab
+OutputPathOutputerValue3== 'PCBFab_' + OutputType
+OutputFileName3=
+OutputFileNameMulti3==ProjectName+'_'+OutputType+'_'+ProjRevision
+UseOutputNameForMulti3=0
+OutputFileNameSpecial3=
+OpenOutput3=0
+OutputFilePath4=C:\Users\sdg6h\Documents\BCP\GIT-bcp_v2\Project Outputs for BCP_V2\v2_0_2\
+ReleaseManaged4=1
+OutputBasePath4=Project Outputs for BCP_V3
+OutputPathMedia4==ProjRevision
+OutputPathMediaValue4==ProjRevision
+OutputPathOutputer4=PCBFab
+OutputPathOutputerPrefix4=PCBFab
+OutputPathOutputerValue4=IPC2581
+OutputFileName4=
+OutputFileNameMulti4==ProjectName  + '_' + OutputType+'_'  + ProjRevision
+UseOutputNameForMulti4=0
+OutputFileNameSpecial4=
+OpenOutput4=0
+OutputFilePath5=C:\Users\sdg6h\Documents\BCP\GIT-bcp_v2\Project Outputs for BCP_V2\v2_0_2\
+ReleaseManaged5=1
+OutputBasePath5=Project Outputs for BCP_V3
+OutputPathMedia5==ProjRevision
+OutputPathMediaValue5==ProjRevision
+OutputPathOutputer5=
+OutputPathOutputerPrefix5=
+OutputPathOutputerValue5=
+OutputFileName5=
+OutputFileNameMulti5==ProjectName+'_Fab_Netlist_IPC-D-356_'+ProjRevision
+UseOutputNameForMulti5=0
+OutputFileNameSpecial5=
+OpenOutput5=0
+OutputFilePath6=C:\Users\sdg6h\Documents\BCP\bcp_v2\Project Outputs for BCP_V2\v2_0_pre\
+ReleaseManaged6=1
+OutputBasePath6=Project Outputs for BCP_V3
+OutputPathMedia6==ProjRevision
+OutputPathMediaValue6==ProjRevision
+OutputPathOutputer6=[Output Custom]
+OutputPathOutputerPrefix6=
+OutputPathOutputerValue6=PCBFab_Gerber_NCDrill_Seeed_Studio
+OutputFileName6=
+OutputFileNameMulti6==ProjectName +' ' + OutputType
+UseOutputNameForMulti6=0
+OutputFileNameSpecial6=
+OpenOutput6=0
+OutputFilePath7=C:\Users\sdg6h\Documents\BCP\bcp_v2\Project Outputs for BCP_V2\PCB Export ASCII\
+ReleaseManaged7=1
+OutputBasePath7=Project Outputs for BCP_V3
+OutputPathMedia7==ProjRevision
+OutputPathMediaValue7==ProjRevision
+OutputPathOutputer7=[Output Custom]
+OutputPathOutputerPrefix7=
+OutputPathOutputerValue7=PCB Export ASCII
+OutputFileName7=
+OutputFileNameMulti7==ProjectName+' '+ProjRevision+' ASCII.PcbDoc'
+UseOutputNameForMulti7=0
+OutputFileNameSpecial7=
+OpenOutput7=1
+OutputFilePath8=C:\Users\sdg6h\Documents\BCP\bcp_v2\Project Outputs for BCP_V2\Reports\
+ReleaseManaged8=1
+OutputBasePath8=Project Outputs for BCP_V3
+OutputPathMedia8==ProjRevision
+OutputPathMediaValue8==ProjRevision
+OutputPathOutputer8=Report
+OutputPathOutputerPrefix8=Report
+OutputPathOutputerValue8=
+OutputFileName8=
+OutputFileNameMulti8=
+UseOutputNameForMulti8=1
+OutputFileNameSpecial8=
+OpenOutput8=1
+OutputFilePath9=C:\Users\sdg6h\Documents\BCP\bcp_v2\Project Outputs for BCP_V2\BCP_V2_Fab_Spec_v2_0_pre.pdf
+ReleaseManaged9=1
+OutputBasePath9=Project Outputs for BCP_V3
+OutputPathMedia9==ProjRevision
+OutputPathMediaValue9==ProjRevision
+OutputPathOutputer9=[Output Type]
+OutputPathOutputerPrefix9=
+OutputPathOutputerValue9=
+OutputFileName9=Fabrication.PDF
+OutputFileNameMulti9=
+UseOutputNameForMulti9=0
+OutputFileNameSpecial9==ProjectName+'_Fab_Spec_'+ProjRevision+'.pdf'
+OpenOutput9=0
+PromptOverwrite9=1
+PublishMethod9=0
+ZoomLevel9=50
+FitSCHPrintSizeToDoc9=1
+FitPCBPrintSizeToDoc9=1
+GenerateNetsInfo9=0
+MarkPins9=1
+MarkNetLabels9=1
+MarkPortsId9=1
+GenerateTOC9=1
+ShowComponentParameters9=0
+GlobalBookmarks9=0
+PDFACompliance9=Disabled
+PDFVersion9=Default
+OutputFilePath10=C:\Users\sdg6h\Documents\BCP\bcp_v2\Project Outputs for BCP_V2\BCP_V2_PCB3D_v2_0_pre.pdf
+ReleaseManaged10=1
+OutputBasePath10=Project Outputs for BCP_V3
+OutputPathMedia10==ProjRevision
+OutputPathMediaValue10==ProjRevision
+OutputPathOutputer10=[Output Type]
+OutputPathOutputerPrefix10=
+OutputPathOutputerValue10=
+OutputFileName10=Fabrication.PDF
+OutputFileNameMulti10=
+UseOutputNameForMulti10=0
+OutputFileNameSpecial10==ProjectName+'_PCB3D_'+ProjRevision+'.pdf'
+OpenOutput10=1
+PromptOverwrite10=1
+PublishMethod10=0
+ZoomLevel10=50
+FitSCHPrintSizeToDoc10=1
+FitPCBPrintSizeToDoc10=1
+GenerateNetsInfo10=1
+MarkPins10=1
+MarkNetLabels10=1
+MarkPortsId10=1
+GenerateTOC10=1
+ShowComponentParameters10=1
+GlobalBookmarks10=0
+PDFACompliance10=Disabled
+PDFVersion10=Default
+
+[GeneratedFilesSettings]
+RelativeOutputPath2=C:\Users\sdg6h\Documents\BCP\GIT-bcp_v2\Project Outputs for BCP_V2\v2_0_2\
+OpenOutputs2=0
+AddToProject2=0
+TimestampFolder2=0
+UseOutputName2=0
+OpenODBOutput2=0
+OpenGerberOutput2=0
+OpenNCDrillOutput2=0
+OpenIPCOutput2=0
+EnableReload2=0
+RelativeOutputPath3=C:\Users\sdg6h\Documents\BCP\GIT-bcp_v2\Project Outputs for BCP_V2\v2_0_2\
+OpenOutputs3=0
+AddToProject3=0
+TimestampFolder3=0
+UseOutputName3=0
+OpenODBOutput3=0
+OpenGerberOutput3=0
+OpenNCDrillOutput3=0
+OpenIPCOutput3=0
+EnableReload3=0
+RelativeOutputPath4=C:\Users\sdg6h\Documents\BCP\GIT-bcp_v2\Project Outputs for BCP_V2\v2_0_2\
+OpenOutputs4=0
+AddToProject4=0
+TimestampFolder4=0
+UseOutputName4=0
+OpenODBOutput4=0
+OpenGerberOutput4=0
+OpenNCDrillOutput4=0
+OpenIPCOutput4=0
+EnableReload4=0
+RelativeOutputPath5=C:\Users\sdg6h\Documents\BCP\GIT-bcp_v2\Project Outputs for BCP_V2\v2_0_2\
+OpenOutputs5=0
+AddToProject5=0
+TimestampFolder5=0
+UseOutputName5=0
+OpenODBOutput5=0
+OpenGerberOutput5=0
+OpenNCDrillOutput5=0
+OpenIPCOutput5=0
+EnableReload5=0
+RelativeOutputPath6=C:\Users\sdg6h\Documents\BCP\bcp_v2\Project Outputs for BCP_V2\v2_0_pre\
+OpenOutputs6=0
+AddToProject6=0
+TimestampFolder6=0
+UseOutputName6=0
+OpenODBOutput6=0
+OpenGerberOutput6=0
+OpenNCDrillOutput6=0
+OpenIPCOutput6=0
+EnableReload6=0
+RelativeOutputPath7=C:\Users\sdg6h\Documents\BCP\bcp_v2\Project Outputs for BCP_V2\PCB Export ASCII\
+OpenOutputs7=1
+AddToProject7=1
+TimestampFolder7=0
+UseOutputName7=0
+OpenODBOutput7=0
+OpenGerberOutput7=0
+OpenNCDrillOutput7=0
+OpenIPCOutput7=0
+EnableReload7=0
+RelativeOutputPath8=C:\Users\sdg6h\Documents\BCP\bcp_v2\Project Outputs for BCP_V2\Reports\
+OpenOutputs8=1
+AddToProject8=1
+TimestampFolder8=0
+UseOutputName8=0
+OpenODBOutput8=0
+OpenGerberOutput8=0
+OpenNCDrillOutput8=0
+OpenIPCOutput8=0
+EnableReload8=0
+RelativeOutputPath9=C:\Users\sdg6h\Documents\BCP\bcp_v2\Project Outputs for BCP_V2\BCP_V2_Fab_Spec_v2_0_pre.pdf
+OpenOutputs9=0
+RelativeOutputPath10=C:\Users\sdg6h\Documents\BCP\bcp_v2\Project Outputs for BCP_V2\BCP_V2_PCB3D_v2_0_pre.pdf
+OpenOutputs10=1
+
