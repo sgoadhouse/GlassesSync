@@ -1,6 +1,4 @@
-# BCP V2 Test Fixture
-
-[[_TOC_]]
+# GlassesSync
 
 A custom "FeatherWing" daughterboard to provide 3.3V buffered logic
 input and output over 3.5mm TRS (tip-ring-sleeve) barrel-style
