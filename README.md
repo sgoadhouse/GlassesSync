@@ -17,6 +17,8 @@ project files. You can also use the [Altium Designer
 Viewer](https://www.altium.com/altium-designer-viewer) to view these
 files.
 
+## Design Output Files
+
 In addition to the source files, there should be various output files
 in PDF, Gerber and other formats. They are located under the folder,
 [Project Outputs for GlassesSync](./Project%20Outputs%20for%20GlassesSync).
