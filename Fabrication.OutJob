@@ -17,7 +17,7 @@ RevisionNamingSchemeGUID=
 [OutputGroup1]
 Name=Fabrication.OutJob
 Description=
-TargetOutputMedium=Fabrication ODB++
+TargetOutputMedium=Fabrication Gerber
 VariantName=[No Variations]
 VariantScope=1
 CurrentConfigurationName=
@@ -50,7 +50,7 @@ OutputName1=Gerber
 OutputCategory1=Fabrication
 OutputDocumentPath1=
 OutputVariantName1=
-OutputEnabled1=0
+OutputEnabled1=1
 OutputEnabled1_OutputMedium1=0
 OutputEnabled1_OutputMedium2=1
 OutputEnabled1_OutputMedium3=0
@@ -63,13 +63,13 @@ OutputEnabled1_OutputMedium9=0
 OutputEnabled1_OutputMedium10=0
 OutputDefault1=0
 Configuration1_Name1=OutputConfigurationParameter1
-Configuration1_Item1=AddToAllLayerClasses.Set= |AddToAllPlots.Set=SerializeLayerHash.Version~2,ClassName~TPlotLayerStateArray|BoardID=YGNIMUCI|CentrePlots=False|DrillDrawingSymbol=GraphicsSymbol|DrillDrawingSymbolSize=200000|EmbeddedApertures=True|FilmBorderSize=10000000|FilmXSize=200000000|FilmYSize=160000000|FlashAllFills=False|FlashPadShapes=True|G54OnApertureChange=False|GenerateDRCRulesFile=True|GenerateDRCRulesFile=True|GenerateReliefShapes=True|GenerateReports=True|GerberUnit=Metric|GerberUnit=Metric|IncludeUnconnectedMidLayerPads=False|LayerClassesMirror.Set= |LayerClassesPlot.Set= |LeadingAndTrailingZeroesMode=SuppressLeadingZeroes|MaxApertureSize=2500000|MergePadAndRegion=False|MinusApertureTolerance=39|MinusApertureTolerance=39|Mirror.Set=SerializeLayerHash.Version~2,ClassName~TPlotLayerStateArray|MirrorDrillDrawingPlots=False|MirrorDrillGuidePlots=False|NoRegularPolygons=False|NumberOfDecimals=2|NumberOfDecimals=2|OptimizeChangeLocationCommands=True|OptimizeChangeLocationCommands=True|OriginPosition=Relative|OutputFormat=Different|Panelize=False|Plot.Set=SerializeLayerHash.Version~2,ClassName~TPlotLayerStateArray,16973830~1,16973832~1,16973834~1,16973835~1,16973833~1,16973831~1,16908304~1,16908311~1,16908301~1,16908289~1,16973837~1,16777217~1,16777230~1,16777218~1,16777228~1,16777220~1,16777226~1,16777221~1,16777224~1,16777232~1,16777233~1,16777225~1,16777222~1,16777227~1,16777219~1,16777229~1,16777223~1,16777231~1,16842751~1|PlotBoardProfile=False|PlotBoardProfileFileName= |PlotDrillDrawingLayerPair0_Backdrill=False|PlotDrillDrawingLayerPair0_Checked=True|PlotDrillDrawingLayerPair0_DrillType=Regular|PlotDrillDrawingLayerPair0_FileName= |PlotDrillDrawingLayerPair0_HighLayer=Bottom Layer|PlotDrillDrawingLayerPair0_LowLayer=Top Layer|PlotDrillDrawingLayerPair1_Backdrill=False|PlotDrillDrawingLayerPair1_Checked=True|PlotDrillDrawingLayerPair1_DrillType=Regular|PlotDrillDrawingLayerPair1_FileName= |PlotDrillDrawingLayerPair1_HighLayer=Bottom Layer|PlotDrillDrawingLayerPair1_LowLayer=Mid Layer 8|PlotDrillDrawingLayerPair2_Backdrill=False|PlotDrillDrawingLayerPair2_Checked=True|PlotDrillDrawingLayerPair2_DrillType=Regular|PlotDrillDrawingLayerPair2_FileName= |PlotDrillDrawingLayerPair2_HighLayer=Mid Layer 7|PlotDrillDrawingLayerPair2_LowLayer=Top Layer|PlotPositivePlaneLayers=False|PlotUsedDrillDrawingLayerPairs=True|PlotUsedDrillGuideLayerPairs=True|PlusApertureTolerance=39|PlusApertureTolerance=39|Record=GerberView|SoftwareArcs=False|Sorted=True|Sorted=True|UncheckPlotDrillGuideLayerPair0_Backdrill=False|UncheckPlotDrillGuideLayerPair0_Checked=False|UncheckPlotDrillGuideLayerPair0_DrillType=Regular|UncheckPlotDrillGuideLayerPair0_FileName= |UncheckPlotDrillGuideLayerPair0_HighLayer=Bottom Layer|UncheckPlotDrillGuideLayerPair0_LowLayer=Top Layer|UncheckPlotDrillGuideLayerPair1_Backdrill=False|UncheckPlotDrillGuideLayerPair1_Checked=False|UncheckPlotDrillGuideLayerPair1_DrillType=Regular|UncheckPlotDrillGuideLayerPair1_FileName= |UncheckPlotDrillGuideLayerPair1_HighLayer=Bottom Layer|UncheckPlotDrillGuideLayerPair1_LowLayer=Mid Layer 8|UncheckPlotDrillGuideLayerPair2_Backdrill=False|UncheckPlotDrillGuideLayerPair2_Checked=False|UncheckPlotDrillGuideLayerPair2_DrillType=Regular|UncheckPlotDrillGuideLayerPair2_FileName= |UncheckPlotDrillGuideLayerPair2_HighLayer=Mid Layer 7|UncheckPlotDrillGuideLayerPair2_LowLayer=Top Layer|DocumentPath=C:\Users\sdg6h\Documents\BCP\GIT-bcp_v3\BCP_V3.PcbDoc
+Configuration1_Item1=AddToAllLayerClasses.Set= |AddToAllPlots.Set=SerializeLayerHash.Version~2,ClassName~TPlotLayerStateArray|BoardID=WRIORIBX|CentrePlots=False|DrillDrawingSymbol=GraphicsSymbol|DrillDrawingSymbolSize=200000|EmbeddedApertures=True|FilmBorderSize=10000000|FilmXSize=200000000|FilmYSize=160000000|FlashAllFills=False|FlashPadShapes=True|G54OnApertureChange=False|GenerateDRCRulesFile=True|GenerateDRCRulesFile=True|GenerateReliefShapes=True|GenerateReports=True|GerberUnit=Metric|GerberUnit=Metric|IncludeUnconnectedMidLayerPads=False|LayerClassesMirror.Set= |LayerClassesPlot.Set= |LeadingAndTrailingZeroesMode=SuppressLeadingZeroes|MaxApertureSize=2500000|MergePadAndRegion=False|MinusApertureTolerance=39|MinusApertureTolerance=39|Mirror.Set=SerializeLayerHash.Version~2,ClassName~TPlotLayerStateArray|MirrorDrillDrawingPlots=False|MirrorDrillGuidePlots=False|NoRegularPolygons=False|NumberOfDecimals=3|NumberOfDecimals=3|OptimizeChangeLocationCommands=True|OptimizeChangeLocationCommands=True|OriginPosition=Relative|OutputFormat=Different|Panelize=False|Plot.Set=SerializeLayerHash.Version~2,ClassName~TPlotLayerStateArray,16973830~1,16973832~1,16973834~1,16973835~1,16973831~1,16777217~1,16842751~1,16908289~1|PlotBoardProfile=False|PlotBoardProfileFileName= |PlotDrillDrawingLayerPair0_Backdrill=False|PlotDrillDrawingLayerPair0_Checked=True|PlotDrillDrawingLayerPair0_DrillType=Regular|PlotDrillDrawingLayerPair0_FileName= |PlotDrillDrawingLayerPair0_HighLayer=Bottom Layer|PlotDrillDrawingLayerPair0_LowLayer=Top Layer|PlotDrillGuideLayerPair0_Backdrill=False|PlotDrillGuideLayerPair0_Checked=True|PlotDrillGuideLayerPair0_DrillType=Regular|PlotDrillGuideLayerPair0_FileName= |PlotDrillGuideLayerPair0_HighLayer=Bottom Layer|PlotDrillGuideLayerPair0_LowLayer=Top Layer|PlotPositivePlaneLayers=False|PlotUsedDrillDrawingLayerPairs=True|PlotUsedDrillGuideLayerPairs=True|PlusApertureTolerance=39|PlusApertureTolerance=39|Record=GerberView|SoftwareArcs=False|Sorted=True|Sorted=True|DocumentPath=C:\Users\sdg6h\Documents\Jaswal\GIT-GlassesSync\GlassesSync.PcbDoc
 OutputType2=NC Drill
 OutputName2=NC Drill
 OutputCategory2=Fabrication
 OutputDocumentPath2=
 OutputVariantName2=
-OutputEnabled2=0
+OutputEnabled2=1
 OutputEnabled2_OutputMedium1=0
 OutputEnabled2_OutputMedium2=2
 OutputEnabled2_OutputMedium3=0
@@ -82,7 +82,7 @@ OutputEnabled2_OutputMedium9=0
 OutputEnabled2_OutputMedium10=0
 OutputDefault2=0
 Configuration2_Name1=OutputConfigurationParameter1
-Configuration2_Item1=BoardEdgeRoutToolDia=2000000|GenerateBoardEdgeRout=False|GenerateDrilledSlotsG85=True|GenerateEIADrillFile=False|GenerateSeparatePlatedNonPlatedFiles=True|GenerateSeparateViaTypeFiles=False|GenerateToolsByDrillSymbols=False|NumberOfDecimals=3|NumberOfUnits=4|OptimizeChangeLocationCommands=True|OriginPosition=Relative|Record=DrillView|Units=Metric|ZeroesMode=SuppressLeadingZeroes|DocumentPath=C:\Users\sdg6h\Documents\BCP\GIT-bcp_v3\BCP_V3.PcbDoc
+Configuration2_Item1=BoardEdgeRoutToolDia=2000000|GenerateBoardEdgeRout=False|GenerateDrilledSlotsG85=True|GenerateEIADrillFile=False|GenerateSeparatePlatedNonPlatedFiles=True|GenerateSeparateViaTypeFiles=False|GenerateToolsByDrillSymbols=False|NumberOfDecimals=3|NumberOfUnits=4|OptimizeChangeLocationCommands=True|OriginPosition=Relative|Record=DrillView|Units=Metric|ZeroesMode=SuppressLeadingZeroes|DocumentPath=C:\Users\sdg6h\Documents\Jaswal\GIT-GlassesSync\GlassesSync.PcbDoc
 OutputType3=IPC2581
 OutputName3=IPC-2581 Files
 OutputCategory3=Fabrication
@@ -101,7 +101,7 @@ OutputEnabled3_OutputMedium9=0
 OutputEnabled3_OutputMedium10=0
 OutputDefault3=0
 Configuration3_Name1=OutputConfigurationParameter1
-Configuration3_Item1=Record=IPC2581View|IPC2581Version=B|MeasurementSystem=Metric|FloatingPointPrecision=6|IsWiseSupport=False|MergeNetTieNets=True|DocumentPath=C:\Users\sdg6h\Documents\BCP\bcp_v2\BCP_V2.PcbDoc
+Configuration3_Item1=Record=IPC2581View|IPC2581Version=B|MeasurementSystem=Metric|FloatingPointPrecision=6|IsWiseSupport=False|MergeNetTieNets=True|OEMDesignNumberRef=DesignItemID|DifferentFootprints=False|DocumentPath=C:\Users\sdg6h\Documents\Jaswal\GIT-GlassesSync\GlassesSync.PcbDoc
 OutputType4=Design Rules Check
 OutputName4=Design Rules Check
 OutputCategory4=Validation
@@ -163,7 +163,7 @@ Configuration6_Item1=Format=PCB ASCII File (*.PcbDoc)|Record=UniExporterView|Doc
 OutputType7=PCBDrawing
 OutputName7=Draftsman
 OutputCategory7=Documentation
-OutputDocumentPath7=BCP_V3_Fab_Spec.PCBDwf
+OutputDocumentPath7=GlassesSync_Fab_Spec.PCBDwf
 OutputVariantName7=
 OutputEnabled7=0
 OutputEnabled7_OutputMedium1=0
@@ -183,7 +183,7 @@ OutputName8=ODB++ Files
 OutputCategory8=Fabrication
 OutputDocumentPath8=
 OutputVariantName8=
-OutputEnabled8=1
+OutputEnabled8=0
 OutputEnabled8_OutputMedium1=0
 OutputEnabled8_OutputMedium2=0
 OutputEnabled8_OutputMedium3=1
@@ -196,7 +196,7 @@ OutputEnabled8_OutputMedium9=0
 OutputEnabled8_OutputMedium10=0
 OutputDefault8=0
 Configuration8_Name1=OutputConfigurationParameter1
-Configuration8_Item1=Compression_None=False|Compression_tar_tgz=False|Compression_zip=True|DifferentFootprints=False|ExportPositivePlaneLayers=False|GenerateDRCRulesFile=True|IncludeComponents=True|IncludeNetList=True|IncludeUnconnectedMidLayerPads=False|IncludeVariantsData=False|IntentionalShorts=False|MergeNetTieNets=True|NeutralizeNetNames=False|ObjsInsideBoardOutlineOnly=False|ODBProfileLayer=-1000|ODBProfileLayerV7=-1|Plot_V7_1=True|Plot_V7_1_name=Mechanical Layer 25|Plot_V7_2=True|Plot_V7_2_name=Mechanical Layer 23|Plot_V7_3=True|Plot_V7_3_name=Mechanical Layer 21|Plot_V7_4=True|Plot_V7_4_name=Mechanical Layer 18|PlotBackDrillingPairs=False|PlotBlindViasPair0_DrillType=Regular|PlotBlindViasPair0_HighLayer=Mid Layer 7|PlotBlindViasPair0_LowLayer=Top Layer|PlotBlindViasPair0_Plot=True|PlotBlindViasPair1_DrillType=Regular|PlotBlindViasPair1_HighLayer=Bottom Layer|PlotBlindViasPair1_LowLayer=Mid Layer 8|PlotBlindViasPair1_Plot=True|PlotBlindViasPairs=False|PlotBottomLayerPlot=True|PlotBottomOverlayPlot=True|PlotBottomPastePlot=True|PlotBottomSolderPlot=True|PlotCounterHolesPairs=False|PlotDrillDrawingPair0_DrillType=Regular|PlotDrillDrawingPair0_HighLayer=Bottom Layer|PlotDrillDrawingPair0_LowLayer=Top Layer|PlotDrillDrawingPair0_Plot=True|PlotDrillDrawingPair1_DrillType=Regular|PlotDrillDrawingPair1_HighLayer=Mid Layer 7|PlotDrillDrawingPair1_LowLayer=Top Layer|PlotDrillDrawingPair1_Plot=True|PlotDrillDrawingPair2_DrillType=Regular|PlotDrillDrawingPair2_HighLayer=Bottom Layer|PlotDrillDrawingPair2_LowLayer=Mid Layer 8|PlotDrillDrawingPair2_Plot=True|PlotDrillDrawingPairs=False|PlotDrillGuidePair0_DrillType=Regular|PlotDrillGuidePair0_HighLayer=Bottom Layer|PlotDrillGuidePair0_LowLayer=Top Layer|PlotDrillGuidePair0_Plot=True|PlotDrillGuidePair1_DrillType=Regular|PlotDrillGuidePair1_HighLayer=Mid Layer 7|PlotDrillGuidePair1_LowLayer=Top Layer|PlotDrillGuidePair1_Plot=True|PlotDrillGuidePair2_DrillType=Regular|PlotDrillGuidePair2_HighLayer=Bottom Layer|PlotDrillGuidePair2_LowLayer=Mid Layer 8|PlotDrillGuidePair2_Plot=True|PlotDrillGuidePairs=False|PlotInternalPlane10Plot=False|PlotInternalPlane11Plot=False|PlotInternalPlane12Plot=False|PlotInternalPlane13Plot=False|PlotInternalPlane14Plot=False|PlotInternalPlane15Plot=False|PlotInternalPlane16Plot=False|PlotInternalPlane1Plot=False|PlotInternalPlane2Plot=False|PlotInternalPlane3Plot=False|PlotInternalPlane4Plot=False|PlotInternalPlane5Plot=False|PlotInternalPlane6Plot=False|PlotInternalPlane7Plot=False|PlotInternalPlane8Plot=False|PlotInternalPlane9Plot=False|PlotKeepOutLayerPlot=True|PlotMechanical10Plot=False|PlotMechanical11Plot=False|PlotMechanical12Plot=False|PlotMechanical13Plot=True|PlotMechanical14Plot=False|PlotMechanical15Plot=True|PlotMechanical16Plot=True|PlotMechanical1Plot=True|PlotMechanical2Plot=False|PlotMechanical3Plot=False|PlotMechanical4Plot=True|PlotMechanical5Plot=False|PlotMechanical6Plot=False|PlotMechanical7Plot=True|PlotMechanical8Plot=True|PlotMechanical9Plot=True|PlotMicroViasPairs=False|PlotMidLayer10Plot=True|PlotMidLayer11Plot=True|PlotMidLayer12Plot=True|PlotMidLayer13Plot=True|PlotMidLayer14Plot=True|PlotMidLayer15Plot=True|PlotMidLayer16Plot=True|PlotMidLayer17Plot=False|PlotMidLayer18Plot=False|PlotMidLayer19Plot=False|PlotMidLayer1Plot=True|PlotMidLayer20Plot=False|PlotMidLayer21Plot=False|PlotMidLayer22Plot=False|PlotMidLayer23Plot=False|PlotMidLayer24Plot=False|PlotMidLayer25Plot=False|PlotMidLayer26Plot=False|PlotMidLayer27Plot=False|PlotMidLayer28Plot=False|PlotMidLayer29Plot=False|PlotMidLayer2Plot=True|PlotMidLayer30Plot=False|PlotMidLayer3Plot=True|PlotMidLayer4Plot=True|PlotMidLayer5Plot=True|PlotMidLayer6Plot=True|PlotMidLayer7Plot=True|PlotMidLayer8Plot=True|PlotMidLayer9Plot=True|PlotNPTHPair0_DrillType=Regular|PlotNPTHPair0_HighLayer=Top Layer|PlotNPTHPair0_LowLayer=Bottom Layer|PlotNPTHPair0_Plot=True|PlotNPTHPairs=False|PlotPTHPair0_DrillType=Regular|PlotPTHPair0_HighLayer=Top Layer|PlotPTHPair0_LowLayer=Bottom Layer|PlotPTHPair0_Plot=True|PlotPTHPairs=False|PlotTopLayerPlot=True|PlotTopOverlayPlot=True|PlotTopPastePlot=True|PlotTopSolderPlot=True|PlotViaTypeDrillDrawingPairs=False|PlotViaTypeDrillGuidePairs=False|PlotViaTypeDrillPairs=False|Record=ODBView|RemoveComponentProperties=False|ToolsByDrillSymbols=False|Units=Metric|UserLayerName.Caption0=bottom_courtyard_1|UserLayerName.Count=1|UserLayerName.Layer0=16908293|Version=8.1|DocumentPath=C:\Users\sdg6h\Documents\BCP\GIT-bcp_v3\BCP_V3.PcbDoc
+Configuration8_Item1=Compression_None=False|Compression_tar_tgz=False|Compression_zip=True|DifferentFootprints=False|ExportPositivePlaneLayers=False|GenerateDRCRulesFile=True|IncludeComponents=True|IncludeNetList=True|IncludeUnconnectedMidLayerPads=False|IncludeVariantsData=False|IntentionalShorts=False|MergeNetTieNets=True|NeutralizeNetNames=False|ObjsInsideBoardOutlineOnly=False|ODBProfileLayer=-1000|ODBProfileLayerV7=-1|Plot_V7_1=True|Plot_V7_1_name=Mechanical Layer 18|Plot_V7_2=True|Plot_V7_2_name=Mechanical Layer 23|Plot_V7_3=True|Plot_V7_3_name=Mechanical Layer 25|Plot_V7_4=True|Plot_V7_4_name=Mechanical Layer 30|PlotBackDrillingPairs=False|PlotBlindViasPairs=False|PlotBottomLayerPlot=True|PlotBottomOverlayPlot=True|PlotBottomPastePlot=True|PlotBottomSolderPlot=True|PlotCounterHolesPairs=False|PlotDrillDrawingPair0_DrillType=Regular|PlotDrillDrawingPair0_HighLayer=Bottom Layer|PlotDrillDrawingPair0_LowLayer=Top Layer|PlotDrillDrawingPair0_Plot=True|PlotDrillDrawingPairs=False|PlotDrillGuidePair0_DrillType=Regular|PlotDrillGuidePair0_HighLayer=Bottom Layer|PlotDrillGuidePair0_LowLayer=Top Layer|PlotDrillGuidePair0_Plot=True|PlotDrillGuidePairs=False|PlotInternalPlane10Plot=False|PlotInternalPlane11Plot=False|PlotInternalPlane12Plot=False|PlotInternalPlane13Plot=False|PlotInternalPlane14Plot=False|PlotInternalPlane15Plot=False|PlotInternalPlane16Plot=False|PlotInternalPlane1Plot=False|PlotInternalPlane2Plot=False|PlotInternalPlane3Plot=False|PlotInternalPlane4Plot=False|PlotInternalPlane5Plot=False|PlotInternalPlane6Plot=False|PlotInternalPlane7Plot=False|PlotInternalPlane8Plot=False|PlotInternalPlane9Plot=False|PlotKeepOutLayerPlot=True|PlotMechanical10Plot=False|PlotMechanical11Plot=False|PlotMechanical12Plot=False|PlotMechanical13Plot=True|PlotMechanical14Plot=False|PlotMechanical15Plot=True|PlotMechanical16Plot=False|PlotMechanical1Plot=False|PlotMechanical2Plot=False|PlotMechanical3Plot=False|PlotMechanical4Plot=False|PlotMechanical5Plot=False|PlotMechanical6Plot=False|PlotMechanical7Plot=False|PlotMechanical8Plot=True|PlotMechanical9Plot=True|PlotMicroViasPairs=False|PlotMidLayer10Plot=False|PlotMidLayer11Plot=False|PlotMidLayer12Plot=False|PlotMidLayer13Plot=False|PlotMidLayer14Plot=False|PlotMidLayer15Plot=False|PlotMidLayer16Plot=False|PlotMidLayer17Plot=False|PlotMidLayer18Plot=False|PlotMidLayer19Plot=False|PlotMidLayer1Plot=False|PlotMidLayer20Plot=False|PlotMidLayer21Plot=False|PlotMidLayer22Plot=False|PlotMidLayer23Plot=False|PlotMidLayer24Plot=False|PlotMidLayer25Plot=False|PlotMidLayer26Plot=False|PlotMidLayer27Plot=False|PlotMidLayer28Plot=False|PlotMidLayer29Plot=False|PlotMidLayer2Plot=False|PlotMidLayer30Plot=False|PlotMidLayer3Plot=False|PlotMidLayer4Plot=False|PlotMidLayer5Plot=False|PlotMidLayer6Plot=False|PlotMidLayer7Plot=False|PlotMidLayer8Plot=False|PlotMidLayer9Plot=False|PlotNPTHPair0_DrillType=Regular|PlotNPTHPair0_HighLayer=Top Layer|PlotNPTHPair0_LowLayer=Bottom Layer|PlotNPTHPair0_Plot=True|PlotNPTHPairs=False|PlotPTHPair0_DrillType=Regular|PlotPTHPair0_HighLayer=Top Layer|PlotPTHPair0_LowLayer=Bottom Layer|PlotPTHPair0_Plot=True|PlotPTHPairs=False|PlotTopLayerPlot=True|PlotTopOverlayPlot=True|PlotTopPastePlot=True|PlotTopSolderPlot=True|PlotViaTypeDrillDrawingPairs=False|PlotViaTypeDrillGuidePairs=False|PlotViaTypeDrillPairs=False|Record=ODBView|RemoveComponentProperties=False|ToolsByDrillSymbols=False|Units=Metric|UserLayerName.Caption0=bottom_courtyard_1|UserLayerName.Count=1|UserLayerName.Layer0=16908293|Version=8.1|DocumentPath=C:\Users\sdg6h\Documents\Jaswal\GIT-GlassesSync\GlassesSync.PcbDoc
 OutputType9=Gerber
 OutputName9=Gerber Seeed Studio
 OutputCategory9=Fabrication
@@ -273,12 +273,12 @@ OutputEnabled12_OutputMedium9=0
 OutputEnabled12_OutputMedium10=0
 OutputDefault12=0
 Configuration12_Name1=OutputConfigurationParameter1
-Configuration12_Item1=AdjacencyDistance=250000|GenerateCSVFormat=False|GenerateIPCFormat=True|GenerateSpreadSheetFormat=False|GenerateTextFormat=False|MergeNetTieNets=True|OriginPosition=Absolute|OutlineLayer=56|OutputAdjancencies=True|OutputBoardOutline=False|OutputTraces=True|Record=TestPointView|ReportBottomLayerTestpoints=True|ReportTopLayerTestpoints=True|Units=Metric|DocumentPath=C:\Users\sdg6h\Documents\BCP\GIT-bcp_v2\BCP_V2.PcbDoc
+Configuration12_Item1=AdjacencyDistance=250000|GenerateCSVFormat=False|GenerateIPCFormat=True|GenerateSpreadSheetFormat=False|GenerateTextFormat=False|MergeNetTieNets=True|OriginPosition=Absolute|OutlineLayer=56|OutputAdjancencies=True|OutputBoardOutline=False|OutputTraces=True|Record=TestPointView|ReportBottomLayerTestpoints=True|ReportTopLayerTestpoints=True|Units=Metric|DocumentPath=C:\Users\sdg6h\Documents\Jaswal\GIT-GlassesSync\GlassesSync.PcbDoc
 
 [PublishSettings]
-OutputFilePath2=C:\Users\sdg6h\Documents\BCP\GIT-bcp_v2\Project Outputs for BCP_V2\v2_0_2\
+OutputFilePath2=C:\Users\sdg6h\Documents\Jaswal\GIT-GlassesSync\Project Outputs for GlassesSync\v1.0\
 ReleaseManaged2=1
-OutputBasePath2=Project Outputs for BCP_V3
+OutputBasePath2=Project Outputs for GlassesSync
 OutputPathMedia2==ProjRevision
 OutputPathMediaValue2==ProjRevision
 OutputPathOutputer2=[Output Custom]
@@ -291,7 +291,7 @@ OutputFileNameSpecial2=
 OpenOutput2=0
 OutputFilePath3=C:\Users\sdg6h\Documents\BCP\GIT-bcp_v2\Project Outputs for BCP_V2\v2_0_2\
 ReleaseManaged3=1
-OutputBasePath3=Project Outputs for BCP_V3
+OutputBasePath3=Project Outputs for GlassesSync
 OutputPathMedia3==ProjRevision
 OutputPathMediaValue3==ProjRevision
 OutputPathOutputer3=[Output Custom]
@@ -302,9 +302,9 @@ OutputFileNameMulti3==ProjectName+'_'+OutputType+'_'+ProjRevision
 UseOutputNameForMulti3=0
 OutputFileNameSpecial3=
 OpenOutput3=0
-OutputFilePath4=C:\Users\sdg6h\Documents\BCP\GIT-bcp_v2\Project Outputs for BCP_V2\v2_0_2\
+OutputFilePath4=C:\Users\sdg6h\Documents\Jaswal\GIT-GlassesSync\Project Outputs for GlassesSync\v1.0\
 ReleaseManaged4=1
-OutputBasePath4=Project Outputs for BCP_V3
+OutputBasePath4=Project Outputs for GlassesSync
 OutputPathMedia4==ProjRevision
 OutputPathMediaValue4==ProjRevision
 OutputPathOutputer4=PCBFab
@@ -315,9 +315,9 @@ OutputFileNameMulti4==ProjectName  + '_' + OutputType+'_'  + ProjRevision
 UseOutputNameForMulti4=0
 OutputFileNameSpecial4=
 OpenOutput4=0
-OutputFilePath5=C:\Users\sdg6h\Documents\BCP\GIT-bcp_v2\Project Outputs for BCP_V2\v2_0_2\
+OutputFilePath5=C:\Users\sdg6h\Documents\Jaswal\GIT-GlassesSync\Project Outputs for GlassesSync\v1.0\
 ReleaseManaged5=1
-OutputBasePath5=Project Outputs for BCP_V3
+OutputBasePath5=Project Outputs for GlassesSync
 OutputPathMedia5==ProjRevision
 OutputPathMediaValue5==ProjRevision
 OutputPathOutputer5=
@@ -330,7 +330,7 @@ OutputFileNameSpecial5=
 OpenOutput5=0
 OutputFilePath6=C:\Users\sdg6h\Documents\BCP\bcp_v2\Project Outputs for BCP_V2\v2_0_pre\
 ReleaseManaged6=1
-OutputBasePath6=Project Outputs for BCP_V3
+OutputBasePath6=Project Outputs for GlassesSync
 OutputPathMedia6==ProjRevision
 OutputPathMediaValue6==ProjRevision
 OutputPathOutputer6=[Output Custom]
@@ -343,7 +343,7 @@ OutputFileNameSpecial6=
 OpenOutput6=0
 OutputFilePath7=C:\Users\sdg6h\Documents\BCP\bcp_v2\Project Outputs for BCP_V2\PCB Export ASCII\
 ReleaseManaged7=1
-OutputBasePath7=Project Outputs for BCP_V3
+OutputBasePath7=Project Outputs for GlassesSync
 OutputPathMedia7==ProjRevision
 OutputPathMediaValue7==ProjRevision
 OutputPathOutputer7=[Output Custom]
@@ -356,7 +356,7 @@ OutputFileNameSpecial7=
 OpenOutput7=1
 OutputFilePath8=C:\Users\sdg6h\Documents\BCP\bcp_v2\Project Outputs for BCP_V2\Reports\
 ReleaseManaged8=1
-OutputBasePath8=Project Outputs for BCP_V3
+OutputBasePath8=Project Outputs for GlassesSync
 OutputPathMedia8==ProjRevision
 OutputPathMediaValue8==ProjRevision
 OutputPathOutputer8=Report
@@ -369,7 +369,7 @@ OutputFileNameSpecial8=
 OpenOutput8=1
 OutputFilePath9=C:\Users\sdg6h\Documents\BCP\bcp_v2\Project Outputs for BCP_V2\BCP_V2_Fab_Spec_v2_0_pre.pdf
 ReleaseManaged9=1
-OutputBasePath9=Project Outputs for BCP_V3
+OutputBasePath9=Project Outputs for GlassesSync
 OutputPathMedia9==ProjRevision
 OutputPathMediaValue9==ProjRevision
 OutputPathOutputer9=[Output Type]
@@ -396,7 +396,7 @@ PDFACompliance9=Disabled
 PDFVersion9=Default
 OutputFilePath10=C:\Users\sdg6h\Documents\BCP\bcp_v2\Project Outputs for BCP_V2\BCP_V2_PCB3D_v2_0_pre.pdf
 ReleaseManaged10=1
-OutputBasePath10=Project Outputs for BCP_V3
+OutputBasePath10=Project Outputs for GlassesSync
 OutputPathMedia10==ProjRevision
 OutputPathMediaValue10==ProjRevision
 OutputPathOutputer10=[Output Type]
@@ -423,7 +423,7 @@ PDFACompliance10=Disabled
 PDFVersion10=Default
 
 [GeneratedFilesSettings]
-RelativeOutputPath2=C:\Users\sdg6h\Documents\BCP\GIT-bcp_v2\Project Outputs for BCP_V2\v2_0_2\
+RelativeOutputPath2=C:\Users\sdg6h\Documents\Jaswal\GIT-GlassesSync\Project Outputs for GlassesSync\v1.0\
 OpenOutputs2=0
 AddToProject2=0
 TimestampFolder2=0
@@ -443,7 +443,7 @@ OpenGerberOutput3=0
 OpenNCDrillOutput3=0
 OpenIPCOutput3=0
 EnableReload3=0
-RelativeOutputPath4=C:\Users\sdg6h\Documents\BCP\GIT-bcp_v2\Project Outputs for BCP_V2\v2_0_2\
+RelativeOutputPath4=C:\Users\sdg6h\Documents\Jaswal\GIT-GlassesSync\Project Outputs for GlassesSync\v1.0\
 OpenOutputs4=0
 AddToProject4=0
 TimestampFolder4=0
@@ -453,7 +453,7 @@ OpenGerberOutput4=0
 OpenNCDrillOutput4=0
 OpenIPCOutput4=0
 EnableReload4=0
-RelativeOutputPath5=C:\Users\sdg6h\Documents\BCP\GIT-bcp_v2\Project Outputs for BCP_V2\v2_0_2\
+RelativeOutputPath5=C:\Users\sdg6h\Documents\Jaswal\GIT-GlassesSync\Project Outputs for GlassesSync\v1.0\
 OpenOutputs5=0
 AddToProject5=0
 TimestampFolder5=0

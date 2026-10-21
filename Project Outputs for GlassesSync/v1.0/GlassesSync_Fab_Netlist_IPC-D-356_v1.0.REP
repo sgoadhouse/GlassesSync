@@ -1,0 +1,9 @@
+Error Report for  - Users\sdg6h\AppData\Local\Temp\Qjz8FC5.tmp
+10/21/2026 6:59:48 PM
+
+Warning arcs were not exported.
+
+Net GL-A-SYNC-OUT-R with allias 1 too long.
+Net GL-B-SYNC-OUT-R with allias 2 too long.
+Net SYNC-FROM-GLA-R with allias 3 too long.
+Net SYNC-FROM-GLB-R with allias 4 too long.

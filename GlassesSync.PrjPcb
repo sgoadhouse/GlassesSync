@@ -219,7 +219,7 @@ ClassGenCCAutoRoomEnabled=0
 ClassGenNCAutoScope=None
 DItemRevisionGUID=
 GenerateClassCluster=0
-DocumentUniqueId=
+DocumentUniqueId=TOAHDUCD
 
 [Document11]
 DocumentPath=Constraints.xml
@@ -242,6 +242,14 @@ DocumentUniqueId=
 DocumentPath=Project Outputs for GlassesSync\Design Rule Check - GlassesSync.html
 DItemRevisionGUID=
 
+[GeneratedDocument2]
+DocumentPath=GlassesSync 10-21-2026 3-56-28 PM.WAS
+DItemRevisionGUID=
+
+[GeneratedDocument3]
+DocumentPath=Project Outputs for GlassesSync\v1.0\GlassesSync_BOM_v1.0_2026-10-21.xlsx
+DItemRevisionGUID=
+
 [SearchPath1]
 Path=UVaND-Libraries\*.*
 IncludeSubFolders=0
@@ -251,32 +259,36 @@ Path=UVaND-Libraries\Simulation UVaND\*.*
 IncludeSubFolders=1
 
 [Parameter1]
-Name=ProjAddress1
-Value=Charlottesville, VA. USA
+Name=ProjTitle
+Value=Glasses Sync
 
 [Parameter2]
-Name=ProjAddress2
-Value=
+Name=ProjRevision
+Value=v1.0
 
 [Parameter3]
-Name=ProjEngineer
-Value=S. Goadhouse
+Name=ProjOrganization2
+Value=INPP 231
 
 [Parameter4]
 Name=ProjOrganization1
 Value=University of Virginia
 
 [Parameter5]
-Name=ProjOrganization2
-Value=
+Name=ProjINPP
+Value=231
 
 [Parameter6]
-Name=ProjRevision
-Value=v0_1
+Name=ProjEngineer
+Value=S. Goadhouse
 
 [Parameter7]
-Name=ProjTitle
-Value=Eye Tracking Glasses Sync
+Name=ProjAddress2
+Value=
+
+[Parameter8]
+Name=ProjAddress1
+Value=Charlottesville, VA. USA
 
 [Configuration1]
 Name=Sources
@@ -398,16 +410,6 @@ OutputName21=Mixed Sim Netlist
 OutputDocumentPath21=
 OutputVariantName21=
 OutputDefault21=0
-OutputType22=SIMetrixNetlist
-OutputName22=SIMetrix
-OutputDocumentPath22=
-OutputVariantName22=
-OutputDefault22=0
-OutputType23=SIMPLISNetlist
-OutputName23=SIMPLIS
-OutputDocumentPath23=
-OutputVariantName23=
-OutputDefault23=0
 
 [OutputGroup2]
 Name=Simulator Outputs
@@ -419,16 +421,6 @@ OutputName1=Mixed Sim
 OutputDocumentPath1=
 OutputVariantName1=
 OutputDefault1=0
-OutputType2=SIMetrixSimulation
-OutputName2=SIMetrix
-OutputDocumentPath2=
-OutputVariantName2=
-OutputDefault2=0
-OutputType3=SIMPLISSimulation
-OutputName3=SIMPLIS
-OutputDocumentPath3=
-OutputVariantName3=
-OutputDefault3=0
 
 [OutputGroup3]
 Name=Documentation Outputs

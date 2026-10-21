@@ -1,0 +1,50 @@
+Altium Designer Pick and Place Locations
+C:\Users\sdg6h\Documents\Jaswal\GIT-GlassesSync\Project Outputs for GlassesSync\v1.0\Asm_Pick Place\GlassesSync_Pick Place_v1.0.txt
+
+========================================================================================================================
+File Design Information:
+
+Date:       21/10/26
+Time:       19:17
+Revision:   5a5fcf3e22aa4f79226ab73f2d5e364c27fd048c
+Variant:    No variations
+Units used: mil
+
+Center-X(mil) Center-Y(mil) Comment           Description                                                                                            Designator Footprint             Layer    Rotation 
+500.000       216.535       22uF              Capacitor                                                                                              C7         C1206_N               TopLayer 0        
+1078.740      712.598       4.75K             Resistor                                                                                               R1         R0402_N               TopLayer 180      
+476.378       346.457       33.0              Resistor                                                                                               R10        R0402_N               TopLayer 90       
+476.378       448.819       0.1uF             Capacitor                                                                                              C4         C0402_N               TopLayer 90       
+216.555       448.819       GT11MSABE         "Switch Toggle, SPDT"                                                                                  SW1        GT13MSABE             TopLayer 0        
+476.378       673.228       4.75K             Resistor                                                                                               R3         R0402_N               TopLayer 270      
+515.748       673.228       4.75K             Resistor                                                                                               R2         R0402_N               TopLayer 90       
+826.772       456.693       TP                "Test Point"                                                                                           TP1        TPAD-SQ               TopLayer 0        
+1078.740      456.693       TP                "Test Point"                                                                                           TP2        TPAD-SQ               TopLayer 0        
+1440.945      283.465       10.0K             Resistor                                                                                               R11        R0402_N               TopLayer 90       
+1440.945      586.614       10.0K             Resistor                                                                                               R6         R0402_N               TopLayer 90       
+807.087       228.346       10.0K             Resistor                                                                                               R13        R0402_N               TopLayer 180      
+807.087       287.402       33.0              Resistor                                                                                               R12        R0402_N               TopLayer 0        
+1440.945      208.661       "0, JUMPER"       Resistor                                                                                               R14        R0402_N               TopLayer 270      
+807.087       645.669       33.0              Resistor                                                                                               R5         R0402_N               TopLayer 0        
+1440.945      511.811       "0, JUMPER"       Resistor                                                                                               R8         R0402_N               TopLayer 270      
+1031.496      539.370       1.00K             Resistor                                                                                               R7         R0402_N               TopLayer 0        
+1204.724      370.079       1.00K             Resistor                                                                                               R9         R0402_N               TopLayer 0        
+1204.724      673.228       1.00K             Resistor                                                                                               R4         R0402_N               TopLayer 0        
+952.756       279.528       74LVC3G17         "Triple Schmitt-Trigger Non-Inverter Buffers"                                                          IC2        SOP50P310X90-8_N      TopLayer 0        
+952.756       633.858       74LVC3G17         "Triple Schmitt-Trigger Non-Inverter Buffers"                                                          IC1        SOP50P310X90-8_N      TopLayer 0        
+1334.646      228.346       BAT30SW           "Serial Schottky Diode"                                                                                D5         SOT65P210X110-3_N     TopLayer 0        
+1334.646      531.496       BAT30SW           "Serial Schottky Diode"                                                                                D2         SOT65P210X110-3_N     TopLayer 0        
+952.756       456.693       BAT30SW           "Serial Schottky Diode"                                                                                D3         SOT65P210X110-3_N     TopLayer 0        
+1334.646      374.016       BAT30SW           "Serial Schottky Diode"                                                                                D4         SOT65P210X110-3_N     TopLayer 0        
+1334.646      677.165       BAT30SW           "Serial Schottky Diode"                                                                                D1         SOT65P210X110-3_N     TopLayer 0        
+952.756       358.268       0.1uF             Capacitor                                                                                              C6         C0402_N               TopLayer 0        
+952.756       712.598       0.1uF             Capacitor                                                                                              C1         C0402_N               TopLayer 180      
+1110.236      539.370       0.1uF             Capacitor                                                                                              C3         C0402_N               TopLayer 0        
+1204.724      409.449       0.1uF             Capacitor                                                                                              C5         C0402_N               TopLayer 180      
+1204.724      712.598       0.1uF             Capacitor                                                                                              C2         C0402_N               TopLayer 180      
+1740.158      299.213       "TRS, RA"         "3.50mm (0.141, 1/8, Mini Plug) - Headphone Phone Jack Stereo (3 Conductor, TRS) Connector Kinked Pin" J3         TH-CONN3A-TRS         TopLayer 90       
+1740.158      602.362       "TRS, RA"         "3.50mm (0.141, 1/8, Mini Plug) - Headphone Phone Jack Stereo (3 Conductor, TRS) Connector Kinked Pin" J2         TH-CONN3A-TRS         TopLayer 90       
+425.197       807.087       "FID 1.00mm"      "Fiducial for PCB registration"                                                                        FID1       FIDUCIAL_C100-200-250 TopLayer 270      
+1944.882      688.976       "FID 1.00mm"      "Fiducial for PCB registration"                                                                        FID2       FIDUCIAL_C100-200-250 TopLayer 270      
+1200.000      852.500       "VERT MALE, 12X1" "Male pin header 12x1"                                                                                 J1         TH-CONN12B-HDR        TopLayer 0        
+1000.000      50.000        "VERT MALE, 16X1" "Male pin header 16x1"                                                                                 J4         TH-CONN16A-HDR        TopLayer 180      
