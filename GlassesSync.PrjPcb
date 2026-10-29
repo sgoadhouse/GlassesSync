@@ -238,6 +238,23 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=
 
+[Document12]
+DocumentPath=GlassesSync.Annotation
+AnnotationEnabled=1
+AnnotateStartValue=1
+AnnotationIndexControlEnabled=0
+AnnotateSuffix=
+AnnotateScope=All
+AnnotateOrder=-1
+DoLibraryUpdate=1
+DoDatabaseUpdate=1
+ClassGenCCAutoEnabled=1
+ClassGenCCAutoRoomEnabled=0
+ClassGenNCAutoScope=None
+DItemRevisionGUID=
+GenerateClassCluster=0
+DocumentUniqueId=
+
 [GeneratedDocument1]
 DocumentPath=Project Outputs for GlassesSync\Design Rule Check - GlassesSync.html
 DItemRevisionGUID=
@@ -259,36 +276,36 @@ Path=UVaND-Libraries\Simulation UVaND\*.*
 IncludeSubFolders=1
 
 [Parameter1]
-Name=ProjTitle
-Value=Glasses Sync
+Name=ProjAddress1
+Value=Charlottesville, VA. USA
 
 [Parameter2]
-Name=ProjRevision
-Value=v1.0
-
-[Parameter3]
-Name=ProjOrganization2
-Value=INPP 231
-
-[Parameter4]
-Name=ProjOrganization1
-Value=University of Virginia
-
-[Parameter5]
-Name=ProjINPP
-Value=231
-
-[Parameter6]
-Name=ProjEngineer
-Value=S. Goadhouse
-
-[Parameter7]
 Name=ProjAddress2
 Value=
 
+[Parameter3]
+Name=ProjEngineer
+Value=S. Goadhouse
+
+[Parameter4]
+Name=ProjINPP
+Value=231
+
+[Parameter5]
+Name=ProjOrganization1
+Value=University of Virginia
+
+[Parameter6]
+Name=ProjOrganization2
+Value=INPP 231
+
+[Parameter7]
+Name=ProjRevision
+Value=v1.0
+
 [Parameter8]
-Name=ProjAddress1
-Value=Charlottesville, VA. USA
+Name=ProjTitle
+Value=Glasses Sync
 
 [Configuration1]
 Name=Sources
