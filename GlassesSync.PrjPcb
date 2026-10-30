@@ -276,36 +276,36 @@ Path=UVaND-Libraries\Simulation UVaND\*.*
 IncludeSubFolders=1
 
 [Parameter1]
-Name=ProjAddress1
-Value=Charlottesville, VA. USA
+Name=ProjTitle
+Value=Glasses Sync
 
 [Parameter2]
-Name=ProjAddress2
-Value=
+Name=ProjRevision
+Value=v2.0
 
 [Parameter3]
-Name=ProjEngineer
-Value=S. Goadhouse
-
-[Parameter4]
-Name=ProjINPP
-Value=231
-
-[Parameter5]
-Name=ProjOrganization1
-Value=University of Virginia
-
-[Parameter6]
 Name=ProjOrganization2
 Value=INPP 231
 
+[Parameter4]
+Name=ProjOrganization1
+Value=University of Virginia
+
+[Parameter5]
+Name=ProjINPP
+Value=231
+
+[Parameter6]
+Name=ProjEngineer
+Value=S. Goadhouse
+
 [Parameter7]
-Name=ProjRevision
-Value=v1.0
+Name=ProjAddress2
+Value=
 
 [Parameter8]
-Name=ProjTitle
-Value=Glasses Sync
+Name=ProjAddress1
+Value=Charlottesville, VA. USA
 
 [Configuration1]
 Name=Sources
