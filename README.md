@@ -23,7 +23,7 @@ In addition to the source files, there should be various output files
 in PDF, Gerber and other formats. They are located under the folder,
 [Project Outputs for GlassesSync](./Project%20Outputs%20for%20GlassesSync).
 
-# Before cloning the GIT repository
+## Before cloning the GIT repository
 
 Make sure that ...
 
@@ -47,7 +47,7 @@ $ git-lfs version
 git-lfs/2.1.1
 ```
 
-# UVaND-Libraries submodule
+## UVaND-Libraries submodule
 
 The UVaND-Libraries submodule contains a Altium component database,
 symbols and footprints library that were used in the design. This is
@@ -58,7 +58,27 @@ schematic and embeds these parts within the SchDoc and PcbDoc files
 available in this repo. So any git warnings about not being able to
 access this submodule can be safely ignored.
 
-# Usage
+## Software
+
+### Preparation
+
+Purchase a [Adafruit RP2350
+Feather](https://www.adafruit.com/product/6130). They can often be
+found at Digi-Key at [Adafruit RP2350 Feather
+6130](https://www.digikey.com/short/nft7f7z4). Install a stable
+version of [CircuitPython for Feather RP2350 by
+Adafruit](https://circuitpython.org/board/adafruit_feather_rp2350/). As
+of this writing, the stable version is
+[v10.3.2](https://downloads.circuitpython.org/bin/adafruit_feather_rp2350/en_US/adafruit-circuitpython-adafruit_feather_rp2350-en_US-10.3.2.uf2). Full
+instructions on how to update the microcontroller board can be found
+[here](https://learn.adafruit.com/adafruit-feather-rp2350/install-circuitpython-2). The basic notes are:
+- Hold the `BOOT` button on the board
+- plug a USB cable between your computer and the board
+- look for a new USB Drive named `RP2350`
+- drag and drop the downloaded CircuitPython `.uf2` file into this USB Drive
+- the board will update, disconnect the USB Drive and reconnect as `CircuitPython`
+
+## Usage
 
 nothing yet ...
 
